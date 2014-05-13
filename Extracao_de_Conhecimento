@@ -1,0 +1,15 @@
+Abordagens supervisionadas
+
+Features
+
+* Definir um conjunto
+
+Metodos baseados em Features: extrai características do texto usados para decidir se as entidades estão relacionadas ou não.
+
+IMportante selecionar características que sejam boas para a tarefa de extração de relações
+Dificuldade: representações estruturadas dos dados de entrada
+
+Kernels: K(x,y) define similaridade entre objetos x e y implicitamente em um espaço dimensional maior.
+
+Strings: nuumero de strings ou sbsequencias comuns a x e a y. (Similaridade sintática)
+
