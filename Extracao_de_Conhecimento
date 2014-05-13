@@ -13,3 +13,33 @@ Kernels: K(x,y) define similaridade entre objetos x e y implicitamente em um esp
 
 Strings: nuumero de strings ou sbsequencias comuns a x e a y. (Similaridade sintática)
 
+Árvores - kernel de árvores se diferenciam pelo tipo de árvore e pelos atributos dos nós que usam.
+  - Árvores sintáticas onde cada nó contém:
+    Tipo de entidade
+    Texto ao qual está subordinado
+    Tags (NP, VP)
+  - Tarefa
+
+Similaridade de árvores: número de subárvores comuns
+
+Abordagem semi-supervisionadas: Grande quantidade e dados não rotulados/ muito custoso dados rotulados
+Aquisição de Conhecimento do Senso-Comum, Reconhecimento de Inferência em texto livre, Mapeamento para ontologias existentes.
+
+Sistema: DRIPE
+Sistema: GATE
+Sistema: SNOWBALL
+Sistema: KnowItAll
+Sistema: TextRunner
+
+DBPedia: relações binárias (Arg1, Relação, Arg2)
+
+SDG - Strutured Discourse Graphs - Trabalha apenas com sentenças coordenadas. 
+
+SimpleWikipedia
+
+
+
+
+
+
+
