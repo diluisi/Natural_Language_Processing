@@ -105,6 +105,8 @@ PP - Prepositional Phrase
 
 Phrase Structure Grammars - Chomsky
 
+Forma normal de Chomsky - derivações de árvores binárias
+
 * Stanford Parser
 
 Como resolver o problema da ambiguidade?
@@ -114,11 +116,32 @@ Statistical Parsing!! (Solução) análise estatística
 
 Exemplo - Gramática livre de contexto probabilística (PCFG)
 
+Dependency Structure
+Em uma sentença, todas as palavras (menos uma, raiz) dependem das outras. Criar árvore de dependências para criar rótulos e hierarquia de classes gramaticais. Estruturas complexas são baseadas em hierarquias que associa e fazum relacionamento de dependencia entre os tipos palavras que temos na sentença. Software usado: Stanford Dependencies Parser.
 
 
+* Semântica
 
+Como damos significados?
+Existem lemas que possuem vários significados. Por exemplo, a palavra "bank"
+Sense ou Word Sense - representação do significado de uma palavra.
 
+Homonyms: palavras qu possuem a mesmaforma e significados distintos (Homographs/Homophones)
 
+Problemas: Recuperação da informação/ Tradução de máquina/ Text-to-Speech
+
+Polysemy: palavras que possuem significados relacionados. Podemos estabelecer relacionamenos entre os senses: Building <-> Organization
+
+Como sabemos se duas palavras tem o mesmo sense?
+
+Ex. Construir uma frase com o mesmo verbo e verificar se a nova frase faz sentido. "A Gol está em São Paulo" e "A Gol serve lanche"
+
+WordNet (VERIFICAR) is a large lexical database of English. MUITO UTILIZADO EM LINGUAGEM NATURAL
+
+Antonyms
+
+Hyponymy - o primeiro sense é mais específico que o segundo (carro - veículo)
+Hypernymy - inverso de hyponymy (fruta - manga)
 
 
 
